@@ -28,7 +28,7 @@ stage('Deploy') {
 
  sh '''
 
- oc project RHT_OCP4_DEV_USER-greetings
+ oc project pmfsvf-greetings
 
  oc start-build greeting-service --follow --wait
 
